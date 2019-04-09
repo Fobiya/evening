@@ -1,0 +1,405 @@
+@charset "UTF-8";
+/*CSS FONTS Web~Oman*/
+/*CSS FONTS END Web~Oman*/
+button {
+  border: none !important; }
+
+a, button {
+  cursor: pointer;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+a:hover, button:hover {
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+div, a {
+  position: relative;
+  display: block; }
+
+/* НАВИГАЦИЯ элименты STYLE Web~Oman --------- */
+.w__bottom {
+  z-index: 1;
+  max-width: 360px;
+  width: 100%;
+  height: 60px;
+  border: 5px solid #fff !important;
+  overflow: hidden !important;
+  display: block !important;
+  position: relative !important;
+  background: none !important;
+  text-align: center;
+  line-height: 50px !important;
+  color: #fff;
+  font: 0.8em "HelveticaNeueCyr-Black";
+  letter-spacing: .2em;
+  text-transform: uppercase; }
+  .w__bottom:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    z-index: -1; }
+  .w__bottom:hover:after {
+    background: url(../images/arroe1.png) no-repeat; }
+  .w__bottom:after {
+    content: '';
+    display: inline-block;
+    background: url(../images/arroe.png) no-repeat;
+    width: 8px;
+    height: 11px;
+    margin-left: 10px; }
+  @media only screen and (min-width: 999px) {
+    .w__bottom:hover {
+      color: #000;
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+    .w__bottom:hover:before {
+      height: 100%;
+      background: #fff; } }
+
+.b__bottom {
+  z-index: 1;
+  max-width: 360px;
+  width: 100%;
+  height: 60px;
+  border: 5px solid #000 !important;
+  overflow: hidden !important;
+  display: block !important;
+  position: relative !important;
+  background: none !important;
+  text-align: center;
+  line-height: 50px !important;
+  color: #000;
+  font: 0.8em "HelveticaNeueCyr-Black";
+  letter-spacing: .2em;
+  text-transform: uppercase; }
+  .b__bottom:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #000;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    z-index: -1; }
+  .b__bottom:hover:after {
+    background: url(../images/arroe.png) no-repeat; }
+  .b__bottom:after {
+    content: '';
+    display: inline-block;
+    background: url(../images/arroe1.png) no-repeat;
+    width: 8px;
+    height: 11px;
+    margin-left: 10px; }
+  @media only screen and (min-width: 999px) {
+    .b__bottom:hover {
+      color: #fff;
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+    .b__bottom:hover:before {
+      height: 100%;
+      background: #000; } }
+
+/* независимые элименты STYLE Web~Oman --------- */
+/* Rectangle Out END */
+/* независимые элименты STYLE Web~Oman --------- */
+/* Rectangle Out END */
+@keyframes anim__border {
+  0% {
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  50% {
+    border: 1px solid rgba(189, 191, 196, 0.6);
+    -webkit-box-shadow: 0 0 0 1px rgba(189, 191, 196, 0.6);
+    box-shadow: 0 0 0 1px rgba(189, 191, 196, 0.6);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  100% {
+    border: 5px solid rgba(189, 191, 196, 0.1);
+    -webkit-box-shadow: 0 0 0 15px rgba(189, 191, 196, 0.02);
+    box-shadow: 0 0 0 15px rgba(189, 191, 196, 0.02);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+@-webkit-keyframes anim__border {
+  0% {
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  50% {
+    border: 2px solid rgba(189, 191, 196, 0.6);
+    -webkit-box-shadow: 0 0 0 1px rgba(189, 191, 196, 0.6);
+    box-shadow: 0 0 0 1px rgba(189, 191, 196, 0.6);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  100% {
+    border: 15px solid rgba(189, 191, 196, 0.1);
+    -webkit-box-shadow: 0 0 0 15px rgba(189, 191, 196, 0.1);
+    box-shadow: 0 0 0 15px rgba(189, 191, 196, 0.1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+@-webkit-keyframes anim__border {
+  0% {
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  50% {
+    border: 2px solid rgba(189, 191, 196, 0.6);
+    -webkit-box-shadow: 0 0 0 1px rgba(189, 191, 196, 0.6);
+    box-shadow: 0 0 0 1px rgba(189, 191, 196, 0.6);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  100% {
+    border: 15px solid rgba(189, 191, 196, 0.1);
+    -webkit-box-shadow: 0 0 0 15px rgba(189, 191, 196, 0.1);
+    box-shadow: 0 0 0 15px rgba(189, 191, 196, 0.1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+.box__menu {
+  z-index: 11;
+  background-color: #ffffff;
+  height: 100vh;
+  right: 0px; }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .box__menu {
+      position: fixed;
+      background: none !important; }
+      .box__menu .box__content__menu {
+        width: 50px !important; }
+        .box__menu .box__content__menu a {
+          display: block; }
+        .box__menu .box__content__menu a:hover .phone:hover .icon .icon_img {
+          display: none; }
+        .box__menu .box__content__menu a:hover .phone:hover .icon .icon_img1 {
+          display: inline; }
+        .box__menu .box__content__menu a:hover .phone .text {
+          letter-spacing: .2em; }
+        .box__menu .box__content__menu a:hover .sale .text {
+          letter-spacing: .2em; }
+        .box__menu .box__content__menu a:hover .sale:hover .icon .icon_img {
+          display: none; }
+        .box__menu .box__content__menu a:hover .sale:hover .icon .icon_img1 {
+          display: inline; }
+        .box__menu .box__content__menu .phone {
+          margin: 5px !important;
+          background: #fff;
+          height: 40px;
+          -webkit-box-shadow: 0 0 9px rgba(64, 64, 64, 0.2);
+          box-shadow: 0 0 9px rgba(64, 64, 64, 0.2);
+          line-height: 50px;
+          position: relative; }
+          .box__menu .box__content__menu .phone .icon {
+            display: block;
+            text-align: center;
+            margin-bottom: 80px; }
+            .box__menu .box__content__menu .phone .icon .icon_img {
+              display: inline; }
+            .box__menu .box__content__menu .phone .icon .icon_img1 {
+              display: none; }
+          .box__menu .box__content__menu .phone .text {
+            display: none !important; }
+        .box__menu .box__content__menu .sale {
+          line-height: 50px;
+          margin: 5px !important;
+          height: 40px;
+          background: #fff;
+          position: relative;
+          -webkit-box-shadow: 0 0 9px rgba(64, 64, 64, 0.2);
+          box-shadow: 0 0 9px rgba(64, 64, 64, 0.2); }
+          .box__menu .box__content__menu .sale .icon {
+            display: block;
+            text-align: center;
+            margin-top: 80px; }
+            .box__menu .box__content__menu .sale .icon .icon_img {
+              display: inline; }
+            .box__menu .box__content__menu .sale .icon .icon_img1 {
+              display: none; }
+          .box__menu .box__content__menu .sale .text {
+            display: none !important; } }
+  @media only screen and (max-width: 1399px) and (min-width: 541px) {
+    .box__menu {
+      position: fixed;
+      background: none !important; }
+      .box__menu .box__content__menu {
+        width: 55px !important; }
+        .box__menu .box__content__menu a {
+          display: block; }
+        .box__menu .box__content__menu a:hover .phone:hover .icon .icon_img {
+          display: none; }
+        .box__menu .box__content__menu a:hover .phone:hover .icon .icon_img1 {
+          display: inline; }
+        .box__menu .box__content__menu a:hover .phone .text {
+          letter-spacing: .2em; }
+        .box__menu .box__content__menu a:hover .sale .text {
+          letter-spacing: .2em; }
+        .box__menu .box__content__menu a:hover .sale:hover .icon .icon_img {
+          display: none; }
+        .box__menu .box__content__menu a:hover .sale:hover .icon .icon_img1 {
+          display: inline; }
+        .box__menu .box__content__menu .phone {
+          margin: 5px !important;
+          background: #fff;
+          height: 55px;
+          -webkit-box-shadow: 0 0 9px rgba(64, 64, 64, 0.2);
+          box-shadow: 0 0 9px rgba(64, 64, 64, 0.2);
+          line-height: 65px;
+          position: relative; }
+          .box__menu .box__content__menu .phone .icon {
+            display: block;
+            text-align: center;
+            margin-bottom: 80px; }
+            .box__menu .box__content__menu .phone .icon .icon_img {
+              display: inline; }
+            .box__menu .box__content__menu .phone .icon .icon_img1 {
+              display: none; }
+          .box__menu .box__content__menu .phone .text {
+            display: none !important; }
+        .box__menu .box__content__menu .sale {
+          line-height: 65px;
+          margin: 5px !important;
+          height: 55px;
+          background: #fff;
+          position: relative;
+          -webkit-box-shadow: 0 0 9px rgba(64, 64, 64, 0.2);
+          box-shadow: 0 0 9px rgba(64, 64, 64, 0.2); }
+          .box__menu .box__content__menu .sale .icon {
+            display: block;
+            text-align: center;
+            margin-top: 80px; }
+            .box__menu .box__content__menu .sale .icon .icon_img {
+              display: inline; }
+            .box__menu .box__content__menu .sale .icon .icon_img1 {
+              display: none; }
+          .box__menu .box__content__menu .sale .text {
+            display: none !important; } }
+  @media only screen and (max-width: 1920px) and (min-width: 1400px) {
+    .box__menu {
+      position: fixed;
+      height: 100vh; } }
+  @media only screen and (min-width: 1921px) {
+    .box__menu {
+      position: absolute;
+      height: 10109px; } }
+  .box__menu .box__content__menu {
+    width: 100px; }
+    .box__menu .box__content__menu a:hover .phone:hover .icon .icon_img {
+      display: none; }
+    .box__menu .box__content__menu a:hover .phone:hover .icon .icon_img1 {
+      display: inline; }
+    .box__menu .box__content__menu a:hover .phone .text {
+      letter-spacing: .2em; }
+    .box__menu .box__content__menu a:hover .sale .text {
+      letter-spacing: .2em; }
+    .box__menu .box__content__menu a:hover .sale:hover .icon .icon_img {
+      display: none; }
+    .box__menu .box__content__menu a:hover .sale:hover .icon .icon_img1 {
+      display: inline; }
+    .box__menu .box__content__menu .phone {
+      margin-top: 75px; }
+      .box__menu .box__content__menu .phone .icon {
+        display: block;
+        text-align: center;
+        margin-bottom: 80px; }
+        .box__menu .box__content__menu .phone .icon .icon_img {
+          display: inline; }
+        .box__menu .box__content__menu .phone .icon .icon_img1 {
+          display: none; }
+      .box__menu .box__content__menu .phone .text {
+        letter-spacing: .03em;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        text-transform: uppercase;
+        -webkit-transition: 1s ease;
+        transition: 1s ease;
+        display: block;
+        position: relative;
+        height: 10px;
+        color: #010000;
+        white-space: nowrap;
+        width: 100px;
+        color: #010000;
+        font: 0.63em "MuseoSansCyrl-900"; }
+    .box__menu .box__content__menu .sale {
+      margin-top: 400px;
+      bottom: 75px;
+      position: relative; }
+      .box__menu .box__content__menu .sale .icon {
+        display: block;
+        text-align: center;
+        margin-top: 80px; }
+        .box__menu .box__content__menu .sale .icon .icon_img {
+          display: inline; }
+        .box__menu .box__content__menu .sale .icon .icon_img1 {
+          display: none; }
+      .box__menu .box__content__menu .sale .text {
+        letter-spacing: .03em;
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        text-transform: uppercase;
+        -webkit-transition: 1s ease;
+        transition: 1s ease;
+        display: block;
+        position: relative;
+        height: 10px;
+        color: #010000;
+        white-space: nowrap;
+        width: 100px;
+        color: #010000;
+        font: 0.63em "MuseoSansCyrl-900"; }
+
+/* END независимые элименты STYLE Web~Oman ------ */
+/*CSS style Web~Oman*/
+header {
+  background: url(../images/bac__success.html.png) no-repeat top center;
+  height: 1000px; }
+  header .box__logo {
+    margin-top: 30px; }
+  header .box__conten__info {
+    margin-left: -30px; }
+    header .box__conten__info h1 {
+      margin-top: 330px;
+      margin-bottom: 20px;
+      color: #000000;
+      font: 5.31em "MuseoSansCyrl-900"; }
+    header .box__conten__info .sabtitle {
+      color: #000000;
+      font: 1.13em "MuseoSansCyrl-300";
+      line-height: 1.445; }
+      header .box__conten__info .sabtitle span {
+        font-family: "MuseoSansCyrl-900"; }
+    header .box__conten__info .info {
+      margin-top: 45px;
+      color: #000000;
+      font: 1.88em "MuseoSansCyrl-900";
+      margin-bottom: 35px; }
+
+/*CSS style Web~Oman*/
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */
